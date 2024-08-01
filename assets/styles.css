@@ -1,0 +1,123 @@
+*{
+    background-color: #028391;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.logo-alura{
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 8%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0a3871;
+    margin-top: 85px;
+    text-transform: lowercase;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+::placeholder { color: #0a3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.segunda__seccion{
+    background: white;
+    background-image: url("/imagenes/Online\ games\ addiction-rafiki\ \(1\).png");
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    color: #0a3871;
+    border-radius: 25px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.segunda__seccion:focus{
+    outline: none;
+}
+
+.cuadro__botones{
+    display: flex;
+    margin-top: 20px;
+}
+
+.boton-encriptar{
+    background-color: #074173;
+    border: 1px solid #074173;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 68px;
+    width: 328px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.boton-encriptar:hover{
+    background-color: #7e95b4;
+}
+
+.boton-encriptar:hover{
+    transform: scale(0.9);
+}
+
+.boton-desencriptar{
+    background: #BFCFE7;
+    border: 1px solid ;
+    border-radius: 24px;
+    color: #074173;
+    cursor: pointer;
+    margin-left: 25px;
+    height: 68px;
+    width: 328px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.boton-desencriptar:hover{
+    background-color: #5e99cd;
+    transform: scale(0.9);
+}
+.boton-copiar{
+    color: #074173;
+    border-radius: 24px;
+    border: 1px solid #074173;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 400px;
+    position: absolute;
+    text-align: center;
+    width: 336px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.boton-copiar:hover{
+    background-color: #01204E;
+}
+
+.info{
+    color: #F6DCAC;
+    font-size: 12px;
+    font-weight: 5;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer{
+    text-align: center;
+    font-weight: 456;
+    margin-top: 150px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
