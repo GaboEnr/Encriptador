@@ -20,21 +20,18 @@
         <section>
             <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
             <div>
-                <h6 class="info">
-                    Solo letras minúsculas y sin acentos
-                </h6>
+                <h6 class="info">Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="cuadro__botones">
-                <button class="boton-encriptar">Encriptar</button>
-                <button class="boton-desencriptar">Desencriptar</button>
+                <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
-
         </section>
 
         <section>
             <textarea class="segunda__seccion" cols="20" rows="10"></textarea>
             <div>
-                <button class="boton-copiar">Copiar</button>
+                <button class="boton-copiar" onclick="copiarTexto()">Copiar</button>
             </div>
         </section>
 
@@ -43,7 +40,7 @@
     <footer class="footer">
         <p>Desarrollado por: Gabriel Atencio - Oracle y Alura Latam - 2024</p>
     </footer>
-<script src="/assets/script.js"></script>
 
+<script src="/script.js"></script>
 </body>
 </html>

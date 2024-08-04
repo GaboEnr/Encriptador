@@ -33,12 +33,11 @@ main{
 
 .segunda__seccion{
     background: white;
-    background-image: url("/imagenes/Online\ games\ addiction-rafiki\ \(1\).png");
+    background-image: url("/imagenes/ser.png");
     background-repeat: no-repeat;
-    outline: none;
     border: none;
-    color: #0a3871;
     border-radius: 25px;
+    color: #0a3871;
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
@@ -51,7 +50,7 @@ main{
 
 .cuadro__botones{
     display: flex;
-    margin-top: 20px;
+    margin-top: 105px;
 }
 
 .boton-encriptar{
@@ -98,7 +97,6 @@ main{
     margin-left: 108px;
     margin-top: 400px;
     position: absolute;
-    text-align: center;
     width: 336px;
     font-family: "Roboto Condensed", sans-serif;
 }
