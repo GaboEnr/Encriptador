@@ -1,4 +1,4 @@
-# Encriptador de Texto
+<h1 align="cemter"> # Encriptador de Texto </h1>
 
 <div align ="center"><img src="imagenes/Captura de pantalla 2024-08-04 145001.png" width="200"/></div>
 <div align="center"><img src="imagenes/Captura de pantalla 2024-08-04 145826.png" width="200"/></div>
