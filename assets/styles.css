@@ -1,5 +1,5 @@
 *{
-    background-color: #028391;
+    background-color: #3572EF;
     padding: 0;
     margin: 0;
     font-size: 20px;
@@ -9,7 +9,7 @@
 .logo-alura{
     padding-top: 20px;
     margin-left: 10px;
-    width: 5%;
+    width: 8%;
 }
 
 main{
@@ -88,7 +88,7 @@ main{
 }
 
 .boton-desencriptar:hover{
-    background-color: #5e99cd;
+    background-color: #A7E6FF;
     transform: scale(0.9);
 }
 .boton-copiar{
@@ -105,7 +105,7 @@ main{
 }
 
 .boton-copiar:hover{
-    background-color: #97a230;
+    background-color: #A7E6FF;
 }
 
 .info{
@@ -125,6 +125,10 @@ main{
 @media (max-width: 780px){
     .header{
         padding: 10px;
+    }
+
+    .contenido{
+        
     }
 
     
