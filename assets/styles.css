@@ -16,6 +16,8 @@ main{
     display: flex;
     margin-bottom: 40px;
     margin-left: 80px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .text-area{
@@ -32,6 +34,7 @@ main{
     }
 
 .segunda__seccion{
+    align-content: baseline;
     background: white;
     background-image: url("/imagenes/ser.png");
     background-repeat: no-repeat;
@@ -55,11 +58,11 @@ main{
 
 .boton-encriptar{
     background-color: #074173;
-    border: 1px solid #074173;
+    border: 3px solid #074173;
     border-radius: 24px;
     color: white;
     cursor: pointer;
-    height: 68px;
+    height: 47px;
     width: 328px;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -74,12 +77,12 @@ main{
 
 .boton-desencriptar{
     background: #BFCFE7;
-    border: 1px solid ;
+    border: 3px solid ;
     border-radius: 24px;
     color: #074173;
     cursor: pointer;
     margin-left: 25px;
-    height: 68px;
+    height: 47px;
     width: 328px;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -91,9 +94,9 @@ main{
 .boton-copiar{
     color: #074173;
     border-radius: 24px;
-    border: 1px solid #074173;
+    border: 3px solid #074173;
     cursor: pointer;
-    height: 67px;
+    height: 47px;
     margin-left: 108px;
     margin-top: 400px;
     position: absolute;
@@ -102,7 +105,7 @@ main{
 }
 
 .boton-copiar:hover{
-    background-color: #01204E;
+    background-color: #97a230;
 }
 
 .info{
@@ -119,9 +122,11 @@ main{
     font-family: "Roboto Condensed", sans-serif;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 780px){
     .header{
         padding: 10px;
     }
+
+    
 
 }

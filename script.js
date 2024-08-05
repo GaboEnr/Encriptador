@@ -18,6 +18,7 @@ function copiarTexto(){
     const copiar = document.querySelector(".segunda__seccion");
     copiar.select();
     navigator.clipboard.writeText(copiar.value);
+    alert("texto copiado")
 }
 
 function encriptar(stringEncriptada){
