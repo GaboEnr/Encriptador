@@ -2,6 +2,8 @@
 
 <div align ="center"><img src="imagenes/Captura de pantalla 2024-08-04 145001.png" width="200"/></div>
 <div align="center"><img src="imagenes/Captura de pantalla 2024-08-04 145826.png" width="200"/></div>
+<br>
+
 
 <p> Bienvenidas y bienvenidos a mi primer desafío! con Alura + Oracle ONE
 
@@ -23,6 +25,6 @@ Extras:
 
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-<p> Imagenes de Pagina</p>
+<p> Imagenes de Pagina: </p>
 
 <img src="/imagenes/Captura de pantalla 2024-08-04 183714.png">
