@@ -6,6 +6,10 @@
     line-height: 100%;
 }
 
+.contenido{
+    gap: 40px;
+}
+
 .logo-alura{
     padding-top: 20px;
     margin-left: 10px;
@@ -126,6 +130,8 @@ main{
 
     .contenido{
         padding: 20%;
+        width: auto;
+        flex-direction: column-reverse;
     }
 
 }
