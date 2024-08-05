@@ -1,6 +1,7 @@
 const textArea = document.querySelector(".text-area");
 const segunda__seccion = document.querySelector(".segunda__seccion");
 
+
 function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value)
     segunda__seccion.value = textoEncriptado
@@ -19,6 +20,11 @@ function copiarTexto(){
     copiar.select();
     navigator.clipboard.writeText(copiar.value);
     alert("texto copiado")
+}
+
+function limpiarTexto(){
+    document.querySelector('.text-area').value = '';
+    document.querySelector('.segunda__seccion').value = '';
 }
 
 function encriptar(stringEncriptada){
